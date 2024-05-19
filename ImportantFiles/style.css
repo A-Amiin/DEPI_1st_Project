@@ -1,0 +1,392 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Mulish", sans-serif;
+}
+
+/* Star head Section */
+.head {
+    DISPLAY: flex;
+    justify-content: space-between;
+    width: 80%;
+    align-items: center;
+    margin: 15px auto;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-left: 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #1f153487;
+}
+
+nav ul li .active {
+    color: #1F1534;
+    font-weight: 600;
+}
+
+/* End head Section */
+
+/* Star the virtual Section */
+.virtual {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.virtual article h1 {
+    font-size: 48px;
+}
+
+.virtual article p {
+    font-size: 21px;
+    color: #7d7987;
+    margin: 50px 0;
+}
+
+.virtual article .button {
+    width: 170px;
+    height: 55px;
+    font-size: 18px;
+    line-height: 2.7;
+    border-radius: 55px;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+    background-color: #458ff6;
+}
+
+.virtual article .button:hover {
+    background-color: rgb(46, 46, 84);
+}
+
+/* End the virtual Section */
+
+/* Star the our-services Section */
+.our-services {
+    background-image: url(/Images/Frame.png);
+    background-repeat: no-repeat;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.container .text h1 {
+    font-size: 35px;
+    text-align: center;
+}
+
+.container .text p {
+    font-size: 18px;
+    margin: 50px 0;
+    padding: 0 80px;
+    color: #7d7987;
+    text-align: center;
+}
+
+.container .Sections {
+    display: flex;
+    flex-direction: column;
+}
+
+.container .card {
+    width: 32%;
+    border-radius: 20px;
+    padding: 0 50px;
+    box-shadow: 13px 10px 0px 0 #10101010;
+}
+
+.container .card p {
+    margin: 30px 0;
+    color: #7D7987;
+}
+
+.Sections .row-one {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.Sections .row-two {
+    display: flex;
+}
+
+.button1 {
+    width: 170px;
+    height: 55px;
+    border: 1px #458FF6 solid;
+    font-size: 18px;
+    line-height: 2.7;
+    border-radius: 55px;
+    color: #458FF6;
+    cursor: pointer;
+    text-align: center;
+    margin: 25px auto;
+}
+
+/* End the our-services Section */
+
+/* Start healthcare Section */
+.healthcare {
+    display: flex;
+    width: 80%;
+    align-items: center;
+    margin: 50px auto;
+}
+
+.healthcare .text {
+    margin-left: 60px;
+}
+
+.healthcare .text h1 {
+    font-size: 48px;
+}
+
+.healthcare .text p {
+    font-size: 21px;
+    color: #7d7987;
+    margin: 50px 0;
+}
+
+.healthcare .button2 {
+    width: 170px;
+    height: 55px;
+    font-size: 18px;
+    line-height: 2.7;
+    border-radius: 55px;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+    background-color: #458ff6;
+}
+
+.healthcare .button2:hover {
+    background-color: rgb(46, 46, 84);
+}
+
+/* End healthcare Section */
+
+/* Start Download Section */
+.Download {
+    display: flex;
+    width: 80%;
+    margin: 10% auto;
+    align-items: center;
+}
+
+.Download .text h1 {
+    font-size: 48px;
+}
+
+.Download .text p {
+    font-size: 21px;
+    color: #7d7987;
+    margin: 50px 0;
+}
+
+.Download .text .button2 {
+    width: 170px;
+    height: 55px;
+    font-size: 18px;
+    line-height: 2.7;
+    border-radius: 55px;
+    border: 1px #458ff6 solid;
+    color: #458ff6;
+    cursor: pointer;
+    text-align: center;
+}
+
+/* End Download Section */
+
+/* Start Customer Section */
+.Customer {
+    margin-top: 10%;
+}
+
+.Customer .container {
+    background: linear-gradient(208.18deg, #67C3F3 9.05%, #5A98F2 76.74%);
+    border-radius: 15px;
+    padding: 50px 0;
+}
+
+.Customer .container .blog {
+    display: flex;
+}
+
+.Customer .container h1 {
+    color: white;
+    font-size: 36px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.Customer .blog .sec-one {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    text-align: center;
+    width: 50%;
+}
+
+.Customer .sec-one svg {
+    border: 3px white solid;
+    border-radius: 50%;
+}
+
+.Customer .sec-one p {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 22px;
+    padding-left: 30px;
+}
+
+.Customer .sec-one p span {
+    font-size: 18px;
+}
+
+.Customer .blog .sec-two {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    padding: 0 65px;
+}
+
+/* End Customer Section */
+
+/* Start our-news Section */
+.our-news {
+    margin: 10% 0;
+}
+
+.our-news h1 {
+    font-size: 36px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.our-news .container {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.our-news .block {
+    width: calc(33.33% - 20px);
+    /* Three blocks in a row with 20px margin */
+    margin-bottom: 40px;
+    /* Margin between rows */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 25px;
+    overflow: hidden;
+}
+
+.our-news .block img {
+    width: 100%;
+}
+
+.our-news .block .news {
+    padding: 20px;
+}
+
+.our-news .block .news h3 {
+    font-size: 21px;
+}
+
+.our-news .block .news p {
+    color: #7D7987;
+    padding: 35px 0;
+    font-size: 17px;
+}
+
+.our-news .block .news a {
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.our-news .button3 {
+    width: 130px;
+    height: 25px;
+    font-size: 18px;
+    margin: auto;
+    background-color: white;
+    border: 2px solid #458FF6;
+    color: #458FF6;
+    padding: 10px 20px;
+    border-radius: 30px;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button3:hover {
+    background-color: #0056b3;
+}
+
+/* start footer  */
+footer {
+    background: linear-gradient(183.41deg, #458FF6 -8.57%, #5A98F2 82.96%);
+    display: flex;
+    align-items: center;
+    padding: 50px;
+}
+
+.info {
+    width: 50%;
+}
+
+.info p {
+    color: white;
+    font-size: 18px;
+    padding: 50px 50% 50px 0;
+}
+
+.info span {
+    color: white;
+    font-size: 16px;
+}
+
+.list {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.list ul {
+    list-style-type: none;
+    color: white;
+    font-weight: 300;
+}
+
+.list ul span {
+    font-weight: 700;
+    margin: 35px 0;
+    font-size: 20px;
+}
+
+.list ul li {
+    margin: 25px 0;
+}
+
+.list ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* End footer  */
