@@ -322,3 +322,411 @@ footer {
     color: white;
     text-decoration: none;
 }
+
+/* -------------------------------------------------------- */
+
+@media (max-width:569px) {
+    .nav ul {
+        display: none;
+    }
+
+    .nav #icon- {
+        content: "";
+    }
+
+    .contain {
+        width: 90%;
+    }
+
+    .virtual {
+        flex-direction: column-reverse;
+    }
+
+    .virtual img {
+        width: inherit;
+        margin-bottom: 25px;
+    }
+
+    .virtual .artone h1 {
+        font-size: 36px;
+    }
+
+    .virtual .artone p {
+        font-size: 14px;
+    }
+
+    .virtual .primary-btn {
+        font-size: 12px;
+        width: 30%;
+    }
+
+    .artone {
+        text-align: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .our-services p {
+        font-size: 14px;
+    }
+
+    .our-services .text p {
+        padding: 0 25px;
+    }
+
+    .container .row-one,
+    .container .row-two {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .Sections .card {
+        width: inherit;
+        align-items: center;
+        padding: 0 50px;
+        display: flex;
+        margin-bottom: 20px;
+        text-align: center;
+        flex-direction: column;
+    }
+
+    .card h2 {
+        margin-top: 15px;
+    }
+
+    .container .secondary-btn {
+        font-size: 12px;
+        width: 30%;
+        margin: auto;
+    }
+
+    .healthcare {
+        flex-direction: column;
+    }
+
+    .healthcare .text {
+        margin: 0;
+
+    }
+
+    .healthcare img {
+        width: inherit;
+        margin-bottom: 25px;
+    }
+
+    .healthcare .text h1 {
+        font-size: 36px;
+    }
+
+    .healthcare .text p {
+        font-size: 14px;
+        padding: 0 25px;
+    }
+
+    .healthcare .secondary-btn {
+        font-size: 12px;
+        width: 30%;
+        margin: auto;
+    }
+
+    .Download {
+        flex-direction: column-reverse;
+    }
+
+    .Download img {
+        width: inherit;
+        margin-bottom: 25px;
+    }
+
+    .Download .text h1 {
+        font-size: 36px;
+    }
+
+    .Download .text p {
+        font-size: 14px;
+        padding: 0 25px;
+    }
+
+    .Download .secondary-btn {
+        font-size: 12px;
+        width: 30%;
+        margin: auto;
+    }
+
+    .Customer .container,
+    .blog {
+        flex-direction: column;
+    }
+
+    .Customer .container h1 {
+        font-size: 36px;
+        padding: 0 15px;
+    }
+
+    .Customer .blog .sec-one {
+        flex-direction: column;
+        width: inherit;
+        align-items: center;
+    }
+
+    .Customer .blog .sec-one p {
+        padding: 0;
+        margin-bottom: 20px;
+    }
+
+    .Customer .blog .sec-two {
+        width: inherit;
+        padding: 0 25px;
+        font-size: 14px;
+    }
+
+    .our-news .container {
+        flex-direction: column;
+    }
+
+    .our-news .container .block {
+        width: inherit;
+        margin: 15px auto;
+    }
+
+    .our-news .secondary-btn {
+        font-size: 12px;
+        width: 30%;
+        margin: auto;
+    }
+
+    footer {
+        flex-direction: column;
+    }
+
+    footer .info {
+        width: inherit;
+        margin-bottom: 20px;
+    }
+
+    footer .info span {
+        display: none;
+    }
+
+    footer .info p {
+        padding: 15px 0;
+        font-size: 14px;
+    }
+
+    .footeer .list {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .footeer .list ul {
+        width: 50%;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .footeer .list ul:last-child {
+        width: 100%;
+    }
+
+    .footeer #spantwo {
+        color: white;
+        font-size: 14px;
+    }
+}
+
+@media (min-width:570px) and (max-width:990px) {
+    .nav ul {
+        display: none;
+    }
+
+    .nav #icon- {
+        content: "";
+    }
+
+    .contain {
+        width: 90%;
+    }
+
+    .virtual {
+        flex-direction: column-reverse;
+    }
+
+    .virtual img {
+        width: inherit;
+        margin-bottom: 25px;
+    }
+
+    .virtual .artone h1 {
+        font-size: 40px;
+    }
+
+    .virtual .artone p {
+        font-size: 16px;
+    }
+
+    .virtual .primary-btn {
+        font-size: 14px;
+    }
+
+    .artone {
+        text-align: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container .card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 0 20px;
+    }
+
+    .container .card h2 {
+        margin-top: 15px;
+    }
+
+    .container .secondary-btn {
+        margin: auto;
+    }
+
+    .healthcare {
+        flex-direction: column;
+    }
+
+    .healthcare .text {
+        margin: 0;
+
+    }
+
+    .healthcare img {
+        width: inherit;
+        margin-bottom: 25px;
+    }
+
+    .healthcare .text h1 {
+        font-size: 36px;
+    }
+
+    .healthcare .text p {
+        font-size: 14px;
+        padding: 0 25px;
+    }
+
+    .healthcare .secondary-btn {
+        margin: auto;
+    }
+
+    .Download {
+        flex-direction: column-reverse;
+    }
+
+    .Download img {
+        width: inherit;
+        margin-bottom: 25px;
+    }
+
+    .Download .text h1 {
+        font-size: 36px;
+    }
+
+    .Download .text p {
+        font-size: 14px;
+        padding: 0 25px;
+    }
+
+    .Download .secondary-btn {
+        margin: auto;
+    }
+
+    .Customer .container,
+    .blog {
+        flex-direction: column;
+    }
+
+    .Customer .container h1 {
+        font-size: 36px;
+        padding: 0 15px;
+    }
+
+    .Customer .blog .sec-one {
+        flex-direction: column;
+        width: inherit;
+        align-items: center;
+    }
+
+    .Customer .blog .sec-one p {
+        padding: 0;
+        margin-bottom: 20px;
+    }
+
+    .Customer .blog .sec-two {
+        width: inherit;
+        padding: 0 25px;
+        font-size: 14px;
+    }
+
+    .our-news .container .block {
+        margin: 15px auto;
+    }
+
+    .our-news .block .news h3 {
+        font-size: 18px;
+    }
+
+    .our-news .block .news p,
+    .our-news .block .news a {
+        font-size: 14px;
+    }
+
+    .our-news .secondary-btn {
+        font-size: 16px;
+        margin: auto;
+    }
+
+    footer {
+        flex-direction: column;
+    }
+
+    footer .info {
+        width: inherit;
+        margin-bottom: 20px;
+    }
+
+    footer .info span {
+        display: none;
+    }
+
+    footer .info p {
+        padding: 15px 0;
+        font-size: 14px;
+    }
+
+    .footeer .list {
+        width: 100%;
+        justify-content: space-between;
+        margin-bottom: 15px;
+    }
+
+    .footeer .list ul span {
+        font-size: 18px;
+    }
+
+    .footeer .list ul li {
+        font-size: 16px;
+    }
+
+    .footeer #spantwo {
+        color: white;
+        font-size: 14px;
+    }
+}
+
+@media (min-width:991px) {
+    .footeer #spantwo {
+        display: none;
+    }
+}
